@@ -1,0 +1,82 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+/* get x and y from input boxes */
+const x = getfrominputbox("xvalue");
+const y = getfrominputbox("yvalue");
+
+/* calculate */
+const sum = x + y;
+
+/* print results */
+console.log sum;
+
+// Exercise 2: Check if a Number is Even or Odd
+
+/* get the number, divide it by two */
+const num = getfrominputbox("number");
+const r = num/2;
+
+/* check if the result is a decimal (float) or not */
+const isFloat =  r.getdatatype();
+
+/* if it's a float, print odd. if not print even. */
+if r.getdatatype() == float {
+	console.log "The number is odd";
+	} else {
+ 	console.log "The number is even";
+	};
+
+// Exercise 3: 
+//Write pseudo code that will perform the following.    
+//a) Read in 5 separate numbers.   
+//b) Calculate the average of the five numbers.
+//c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+//d) Write out the results found from steps b and c with a message describing what they are
+
+/* Get inputs from input boxes */
+const getArray = (input1, input2, input3, input4, input5);
+
+/* Calculate average */
+const avg = (input1 + input2 + input3 + input4 + input5) / getArray(array.length);
+
+/* figure out what the highest value is */
+if input1 > input2 && input1 > input3 && input1 > input4 && input1 > input5 {
+	const max = input1;
+}
+if input2 > input1 && input2 > input3 && input2 > input4 && input2 > input5 {
+	const max = input2;
+}
+if input3 > input1 && input3 > input2 && input3 > input4 && input3 > input5 {
+	const max = input3;
+}
+if input4 > input1 && input4 > input2 && input4 > input3 && input4 > input5 {
+	const max = input4;
+}
+if input5 > input1 && input5 > input2 && input5 > input3 && input5 > input4 {
+	const max = input5;
+}
+
+/* figure out what the lowest value is */
+if input1 < input2 && input1 < input3 && input1 < input4 && input1 < input5 {
+	const min = input1;
+}
+if input2 < input1 && input2 < input3 && input2 < input4 && input2 < input5 {
+	const min = input2;
+}
+if input3 < input1 && input3 < input2 && input3 < input4 && input3 < input5 {
+	const min = input3;
+}
+if input4 < input1 && input4 < input2 && input4 < input3 && input4 < input5 {
+	const min = input4;
+}
+if input5 < input1 && input5 < input2 && input5 < input3 && input5 < input4 {
+	const min = input5;
+}
+
+/* print results */
+console.log ("The average is: " avg);
+console.log ("Max value = " max);
+console.log ("Min value = " min);
+
+
+-- END --
